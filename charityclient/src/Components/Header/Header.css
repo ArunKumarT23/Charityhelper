@@ -1,0 +1,78 @@
+header{
+    padding: 5px 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+header .logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header .logo i{
+    font-size: 36px;
+    font-weight: 600px;
+    padding: 5px;
+    display: none;
+}
+
+header .logo img{
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+header .menus ul li{
+    display: inline-block;
+    padding: 15px;
+    list-style-type: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #1f364d;
+    font-weight: 700;
+    font-size: large;
+}
+
+header ul li a:hover{
+    font-size: larger;
+    color: #ff8028;
+    transition: all .5s ease-in-out;
+}
+
+
+
+@media (min-width:320px)  and (max-width:480px){
+    header{
+        display: block;
+        padding: inherit;
+        position: relative;
+    }
+    header .logo i{
+        display: block;
+    }
+    header .menus ul li{
+        display: block;
+    }
+
+    header .menus{
+        background-color: rgb(32, 136, 226);
+        padding: 10px;
+        position: absolute;
+        left: -100%;
+        width: 100%;
+        top: 130px;  
+    }
+
+    .donatebtn {
+        text-align: center;
+    }
+
+
+
+}

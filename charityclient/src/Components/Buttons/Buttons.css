@@ -1,0 +1,14 @@
+ button {
+    background-color: #ff8028;
+    padding: 10px 10px;
+    color: #fff;
+    font-size:large;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
+    
+}
+ button:hover{
+    background-color: #1f364d;
+    
+}

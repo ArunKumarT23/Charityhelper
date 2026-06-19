@@ -1,0 +1,161 @@
+.sec1{
+    background-image: url("../../Asserts/about\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1content{
+    padding: 40px;
+    margin: 20px 0px;
+    text-align: center;
+    color: #fff;
+    width: 800px;
+}
+
+.abouthelper{
+    padding: 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f364d;
+    background-color: rgb(255, 246, 246);
+}
+.aboutleft{
+    padding: 30px;
+    margin: 10px 0;
+}
+
+.aboutleft img{
+    width: 100%;
+    height: 100%;
+    
+}
+.aboutright {
+    width: 600px;
+    padding: 20px ;
+    margin: 10px 0;
+}
+
+.para{
+    padding: 20px;
+}
+
+.aboutheading h1{
+    font-size: 50px;
+    padding: 20px; 
+}
+
+.aboutheading h3{
+    padding: 10px;
+    font-size: 25px;    
+}
+
+.ourmissions{
+    justify-content:center;
+    align-items: center;
+    padding: 50px;
+    color: #1f364d;
+}
+.ourmissions h1{
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.aboutbox1{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+.aboutbox2{
+    display: flex;
+    width: 100%;
+}
+
+.imagebox .images img{
+    width: 300px;
+    height: 250px;
+}
+
+.imagebox ,.title, .para {
+    color: #1f364d;
+    justify-content: center;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 55px;
+    color: #1f364d;
+}
+
+.Team .content{
+    padding: 60px ;
+    justify-content: center;
+    text-align: center;
+}
+
+.Team{
+    padding: 0px 0px;
+}
+
+.img1 ,.img2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.imagebox h3:hover {
+    color: #ff8028;
+    transition: ease-in;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:480px){
+    .sec1content h1{
+        font-size: 36px;
+    }
+    .sec1content{
+        width: inherit;
+    }
+
+    .abouthelper{
+        padding: 0px 0px;
+        display: block;
+    }
+    .aboutheading h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .aboutleft img{
+        width: 100%;
+    }
+
+    .aboutright {
+        width: inherit;
+    }
+    .ourmissions h1{
+        font-size: 30px; 
+       }
+    .aboutbox1{
+        display: block;
+        width: inherit;
+    }
+    .aboutbox2{
+        display: block;
+    }
+    .img1 ,.img2{
+        display: block;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+
+
+}
